@@ -1,0 +1,15 @@
+
+title: "Пример документации"
+author: "Your Team"
+logo: images/diagram.png
+
+execute:
+  execute_notebooks: off   # важно для серверной сборки
+
+repository:
+  url: https://github.com/USERNAME/jupyterbook-example
+  branch: main
+
+html:
+  use_repository_button: true
+  use_edit_page_button: true
