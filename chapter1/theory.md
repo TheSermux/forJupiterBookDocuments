@@ -2,4 +2,4 @@
 
 Формулы, текст, изображения:
 
-![Diagram](../images/diagram.png)
+![Diagram](../images/screensaver.png)
