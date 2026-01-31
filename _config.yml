@@ -1,15 +1,25 @@
+# Основные настройки
+title: "Авантеко Стандартизация"
+author: "Проектный отдел ООО МРЦ Авантеко"
+#logo: "logo.png"
 
-title: "Пример документации"
-author: "Your Team"
-logo: images/diagram.png
+# Язык и кодировка
+language: ru
+encoding: utf-8
 
-execute:
-  execute_notebooks: off   # важно для серверной сборки
+# Использование MyST
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - colon_fence
+    - tasklist
+    - deflist
 
-repository:
-  url: https://github.com/USERNAME/jupyterbook-example
-  branch: main
-
+# HTML настройки
 html:
-  use_repository_button: true
+  #favicon: "favicon.ico"
+  baseurl: ""
   use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+

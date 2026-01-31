@@ -1,12 +1,14 @@
 format: jb-book
 root: intro
-
 chapters:
   - file: chapter1/index
     sections:
-      - file: chapter1/theory
-      - file: chapter1/notebook1
-
+      - file: chapter1/section1
+      - file: chapter1/section2
   - file: chapter2/index
     sections:
-      - file: chapter2/notebook2
+      - file: chapter2/another
+      - file: chapter2/subsection/index
+        sections:
+          - file: chapter2/subsection/deep-dive
+  - file: references
