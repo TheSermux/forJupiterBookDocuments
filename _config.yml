@@ -18,7 +18,7 @@ parse:
 # HTML настройки
 html:
   #favicon: "favicon.ico"
-  baseurl: "/wiki/"
+  baseurl: "/wiki"
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
